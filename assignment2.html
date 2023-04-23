@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Nayara Covas">
+  </head>
+  <body>
+    <h1>Nail shapes</h1>
+    <span class="quote"
+      >“Great nails do not happen by chance. They happen by appointment.”</span
+    >
+    <hr>
+    <a href="images/nailshapes.jpg">
+      <img src="images/nailshapes.jpg" alt="7 Nail shapes" width="300">
+    </a>
+    <hr>
+    <div>
+      <h2>How many nail shapes are there?</h2>
+      <p>The main seven types of nail shapes you can opt for are:</p>
+      <ul>
+        <li>oval</li>
+        <li>square</li>
+        <li>coffin</li>
+        <li>almond</li>
+        <li>stiletto</li>
+        <li>lipstick</li>
+        <li>flare</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Nail shapes for each finger type</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Short</th>
+            <th>Long</th>
+            <th>Thin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>oval</td>
+            <td>square</td>
+            <td>lipstick</td>
+          </tr>
+          <tr>
+            <td>almond</td>
+            <td>coffin</td>
+            <td>stiletto</td>
+          </tr>
+          <!-- <br/> -->
+          <tr>
+            <td></td>
+            <td></td>
+            <td>flare</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+    <form action="process.php" method="POST">
+      <h2>Fill this form to receive ideas of nail styles</h2>
+      <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="Enter first name">
+      </div>
+      <br>
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="lastName">
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label>Age</label>
+        <input type="number" name="age" value="15">
+      </div>
+      <br>
+      <div>
+        <label>Finger</label>
+        <select name="finger">
+          <option value="short">Short</option>
+          <option value="long">Long</option>
+          <option value="thin">Thin</option>
+        </select>
+      </div>
+      <br>
+
+      <div>
+        <label>Select the nail polish colors </label>
+        <input type="checkbox" name="color" id="white" value="white">
+        <label for="white">White</label>
+        <input type="checkbox" name="color" id="green" value="green">
+        <label for="green">Green</label>
+        <input type="checkbox" name="color" id="red" value="red">
+        <label for="red">Red</label>
+      </div>
+      <br>
+      <div>
+        <span>Are you modern or classy?</span>
+        <br>
+        <input type="radio" name="button" id="modern">
+        <label for="modern">Modern</label>
+        <input type="radio" name="button" id="classy">
+        <label for="classy">Classy</label>
+      </div>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>
+<!--HTML, head, body, meta description, a, p, div, ul, li, table, thead, td, tbody, tr, td, span
+Somewhere on the page create a fake form with the following tags: form, select, input type="text, input type="checkbox", input type="radio", input type="submit"-->
